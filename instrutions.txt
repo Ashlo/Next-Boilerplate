@@ -1,0 +1,42 @@
+This is a instruction file for the project.
+
+this is a Boilerplate for a SaaS application.
+
+We should be using great structure for the project.
+all components should be in the components folder and should be named like example-component.tsx unless otherwise specified.
+we are using app router for the project.
+
+
+Step 1:
+
+    - Create a landing page for the application.
+    - where on header and hero there will be Sign in button and Login Button.
+    - on the footer there will be a link to the privacy policy and terms of service.
+
+Step 2:
+    - Create a login page for the application.
+    - We will use clerk for authentication.
+    - so make sure we have clerk login and signup in the page.
+
+Step 3:
+    - Create a dashboard for the application.
+    - There will be a sidebar with the following links:
+        - Dashboard
+        - Settings
+        - Billing
+        - Logout
+
+Step 4:
+    - We will use Neon postgres for the database.
+    - Just to show the working we will create a table named tasks.
+    - The table will have the following columns:
+        - id
+        - title
+        - description
+        - status
+        - created_at
+        - updated_at
+    - We will use drizzle orm for the database.
+    - and on to the main dashboard we will display the tasks table.
+    - initially it will not be there the table if not there we will create it.
+
