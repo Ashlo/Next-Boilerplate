@@ -8,6 +8,20 @@
       "when": 1735484938255,
       "tag": "0000_glamorous_tarantula",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1735582086662,
+      "tag": "0001_lucky_abomination",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1735582213258,
+      "tag": "0002_lethal_rachel_grey",
+      "breakpoints": true
     }
   ]
 }
