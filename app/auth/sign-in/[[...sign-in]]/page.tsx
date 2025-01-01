@@ -7,9 +7,9 @@ export default function Page() {
       {/* Left Side - Gradient Background with Content */}
       <div className="hidden lg:flex lg:w-1/2 relative bg-gradient-to-br from-blue-600 to-purple-600 p-12 text-white">
         <div className="relative z-10 mt-auto">
-          <h1 className="text-4xl font-bold mb-4">Welcome back to ClinicFlow</h1>
+          <h1 className="text-4xl font-bold mb-4">Welcome back to SaasFrame</h1>
           <p className="text-lg text-blue-100 mb-8">
-            Your comprehensive medical clinic management solution. Sign in to access your dashboard and manage your practice efficiently.
+            A production-ready template with authentication, database, and more. Sign in to get started.
           </p>
           <div className="flex items-center space-x-4 text-sm text-blue-100">
             <div className="flex items-center">
@@ -17,13 +17,13 @@ export default function Page() {
                 <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
                 <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clipRule="evenodd" />
               </svg>
-              Efficient Patient Management
+              Type-Safe Development
             </div>
             <div className="flex items-center">
               <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd" />
               </svg>
-              Smart Scheduling
+              Modern Stack
             </div>
           </div>
         </div>
@@ -39,7 +39,7 @@ export default function Page() {
       <div className="w-full lg:w-1/2 bg-white flex items-center justify-center p-12">
         <div className="max-w-md w-full space-y-8">
           <div className="text-center mb-10">
-            <h2 className="text-3xl font-bold text-gray-900 mb-2">Sign in to ClinicFlow</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-2">Sign in to SaasFrame</h2>
             <p className="text-gray-600">Welcome back! Please enter your details.</p>
           </div>
           <SignIn
